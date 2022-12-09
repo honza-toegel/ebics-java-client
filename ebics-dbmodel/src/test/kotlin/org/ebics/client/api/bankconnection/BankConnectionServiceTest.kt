@@ -1,7 +1,7 @@
 package org.ebics.client.api.bankconnection
 
-import DbTestContext
 import org.assertj.core.api.Assertions.assertThat
+import org.ebics.client.api.DbTestContext
 import org.ebics.client.api.bank.BankData
 import org.ebics.client.api.bank.BankServiceImpl
 import org.ebics.client.model.EbicsVersion

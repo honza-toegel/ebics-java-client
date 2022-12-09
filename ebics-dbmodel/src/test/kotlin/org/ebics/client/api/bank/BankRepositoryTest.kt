@@ -1,7 +1,7 @@
 package org.ebics.client.api.bank
 
-import DbTestContext
 import org.assertj.core.api.Assertions.assertThat
+import org.ebics.client.api.DbTestContext
 import org.ebics.client.api.getById
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.Test

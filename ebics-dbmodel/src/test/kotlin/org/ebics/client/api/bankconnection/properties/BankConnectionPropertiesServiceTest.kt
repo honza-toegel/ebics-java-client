@@ -1,6 +1,6 @@
 package org.ebics.client.api.bankconnection.properties
 
-import DbTestContext
+import org.ebics.client.api.DbTestContext
 import org.ebics.client.api.bank.BankData
 import org.ebics.client.api.bank.BankService
 import org.ebics.client.api.bankconnection.BankConnection

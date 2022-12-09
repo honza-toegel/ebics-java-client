@@ -1,13 +1,13 @@
 package org.ebics.client.api.bankconnection.cert
 
-import DbTestContext
 import org.assertj.core.api.Assertions.assertThat
+import org.ebics.client.api.DbTestContext
 import org.ebics.client.api.bank.Bank
 import org.ebics.client.api.bank.BankRepository
-import org.ebics.client.api.partner.Partner
-import org.ebics.client.api.partner.PartnerRepository
 import org.ebics.client.api.bankconnection.BankConnectionEntity
 import org.ebics.client.api.bankconnection.BankConnectionRepository
+import org.ebics.client.api.partner.Partner
+import org.ebics.client.api.partner.PartnerRepository
 import org.ebics.client.model.EbicsVersion
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.extension.ExtendWith

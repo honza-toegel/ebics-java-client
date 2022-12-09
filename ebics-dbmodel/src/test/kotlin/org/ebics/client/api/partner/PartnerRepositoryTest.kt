@@ -1,6 +1,6 @@
 package org.ebics.client.api.partner
 
-import DbTestContext
+import org.ebics.client.api.DbTestContext
 import org.ebics.client.api.bank.BankData
 import org.ebics.client.api.bank.BankServiceImpl
 import org.junit.jupiter.api.Assertions

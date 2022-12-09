@@ -292,8 +292,7 @@ export default defineComponent({
     };
 
     const customFilterFunction = (rows:TraceEntry[], filterCriteria:CustomFilterInputNR):TraceEntry[] => {
-      // rows contain the entire data
-      // terms contains whatever is actual filter criteria
+      // rows contain the entire table data
       console.log(filterCriteria)
 
       const filteredRowsByOptions = rows.filter((row) => transferTypeFilterPredicate(row) && traceTypeFilterPredicate(row))

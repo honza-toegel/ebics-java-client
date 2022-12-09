@@ -1,3 +1,5 @@
+package org.ebics.client.api
+
 import org.ebics.client.api.bank.BankRepository
 import org.ebics.client.api.bank.BankServiceImpl
 import org.ebics.client.api.bankconnection.BankConnectionRepository
