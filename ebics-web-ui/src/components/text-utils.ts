@@ -50,7 +50,7 @@ export default function useTextUtils() {
 
   /**
    *
-   * @returns unique timestamp within 1 year in MMDD-hhmmss format
+   * @returns unique timestamp within 1 year in MMdd-hhmmss format
    */
   const uniqueTimeStamp = (dash = true) => {
     const date = new Date();

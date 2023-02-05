@@ -22,3 +22,10 @@ logging:
     org.hibernate.type: TRACE
     org.springframework.web: ERROR
     org.hibernate: INFO
+testautomation:
+  customScheduler1:
+    cron: "*/1 * * * * *"
+    name: "each second"
+  customScheduler2:
+    cron: "*/3 * * * * *"
+    name: "each 3 seconds"
